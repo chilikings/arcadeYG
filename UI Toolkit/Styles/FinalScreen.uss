@@ -1,0 +1,40 @@
+.game-complete-screen {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-image: url("project://database/Assets/Art/Screens/FinalScreen_500.jpg");
+    -unity-background-scale-mode: scale-to-fit; 
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.game-complete-screen.visible {
+    opacity: 1;
+}
+
+.game-complete-screen.hidden {
+    opacity: 0;
+}
+
+.replay-button {
+    height: 35%;
+    background-color: transparent;
+    background-image: url("project://database/Assets/Art/Icons/Game/StartButton.png");
+    background-size: 90%;
+    transform-origin: center center;
+    overflow-clip-box: none;
+    border-width: 0;
+    border-color: red;
+    padding: 0;
+    margin: 0;
+}
+
+/* .game-complete-text {
+    font-size: 30px;
+    color: white;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+} */

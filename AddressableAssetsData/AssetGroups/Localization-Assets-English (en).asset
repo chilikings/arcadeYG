@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (en)
+  m_GUID: fb79ed6f79f2fc0428dfaed5c9175d6f
+  m_SerializeEntries:
+  - m_GUID: 40eeefd4f80585a42bd78830481a6fd4
+    m_Address: eng_FinalScreen_500
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54945b4bfcd465443b51098b17816bd2
+    m_Address: Skins_eng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a53dbd3944868a4284355d60dc7f2da
+    m_Address: Assets/Art/Screens/Eng_StartScreen.jpg
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dded9d27a9eb2743b3e98e8a92eacf6
+    m_Address: Lives_eng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85e172fa8bf2edc4ab3b97108196b697
+    m_Address: Items_eng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced088462296883468727abecdbed697
+    m_Address: TUTORIAL_ENG_800
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 7d1e71c2c54a6ee42a872d38361ce57a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: eb13f0de5a61e1f40bfff916a912da31, type: 2}
+    - {fileID: 11400000, guid: 501b33612cc438a408324a0cb264edad, type: 2}

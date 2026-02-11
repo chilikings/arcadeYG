@@ -1,0 +1,52 @@
+
+.topbar-left {
+    display: flex;
+    width: 35%;
+    height: 100%;
+    padding-left: 3%;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0;
+    border-color: purple;
+}
+
+.heart-plus-button {
+  position: relative;
+  border-width: 0;
+  border-color: red;
+}
+
+/* #heartPlusButton {} */
+
+.heart-plus-icon{
+    background-image: url("project://database/Assets/Art/Icons/Hearts/HeartPlusAD_140.png");
+    background-size: 101%;
+    top: -10%;
+    bottom: -10%;
+    right: -20%;
+    left: -20%;
+    border-width: 0;
+    border-color: purple;
+}
+
+.heart-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; /* space-between */
+    height: 100%;
+    flex: 0 0 70%;
+    border-width: 0;
+    border-color: green;
+    margin-left: 1%;
+}
+
+.heart-icon {
+    background-image: url("project://database/Assets/Art/Icons/Hearts/Heart_100.png");
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    /* flex: 1 1 auto; */
+    /* transition: scale 0.1s ease-in-out; */
+}

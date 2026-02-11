@@ -1,0 +1,68 @@
+.final-image-screen {
+    /* position: absolute; */
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
+    border-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 1.5s ease-in-out;
+}
+
+.final-image-screen--expanded {
+   background-color: rgba(0, 0, 0, 1);
+} 
+
+
+.final-image-screen-image {
+/*     width: 70%;
+    height: 70%; */
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    transition: scale 2s ease-in-out;
+    scale: 0.1;
+    /* padding-top: 10%; */
+    flex: 0 0 80%;
+    /* border-width:1px;
+    border-color:blue; */
+}
+
+.final-image-screen-image--expanded {
+    scale: 1;
+}
+
+.final-image-screen-image:hover {
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.final-image-screen-image-label {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0);
+    white-space: normal;
+    scale: 1;
+    /* padding: 5% 0; */
+    flex: 0 0 10%;
+    /* border-width:1px;
+    border-color:red; */
+    -unity-text-align: middle-center;
+    /* -unity-font: resource("Fonts/helvetica-bold"); */
+}
+
+.final-image-screen-image-label--expanded {
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.final-image-screen-image-label-scale {
+    scale: 1.5;
+    
+}

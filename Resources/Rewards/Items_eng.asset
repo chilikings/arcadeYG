@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d73efe535e3ca4c4f8293991a0849ec1, type: 3}
+  m_Name: Items_eng
+  m_EditorClassIdentifier: 
+  _items:
+  - _name: Without item
+    _icon: {fileID: 21300000, guid: 3e2df7a6ab69c3748b9139a8220eea71, type: 3}
+    _sprite: {fileID: 0}
+  - _name: Jamaican Glasses
+    _icon: {fileID: 21300000, guid: 147f8946fcf780d47a6da80f83bb166e, type: 3}
+    _sprite: {fileID: 21300000, guid: 3ad0fd2494bad824bbf7d6dec5dbb6ad, type: 3}
+  - _name: Crazy Glasses
+    _icon: {fileID: 21300000, guid: d02982f612c196447865c85310051e2f, type: 3}
+    _sprite: {fileID: 21300000, guid: 36bfb3fd17a89d04ea55c470fe18bd5b, type: 3}
+  - _name: Pink Glasses
+    _icon: {fileID: 21300000, guid: fedcaa4fd9c3e204aaeca4b7a82adbbf, type: 3}
+    _sprite: {fileID: 21300000, guid: 5a259014b6e5180478885ede4b74b336, type: 3}
+  - _name: Worker's Glasses
+    _icon: {fileID: 21300000, guid: f577697e0d43e8448a78563a69c07711, type: 3}
+    _sprite: {fileID: 21300000, guid: 7c55938f85cda2a4a811abf46e7a5864, type: 3}
+  - _name: Devil Horns
+    _icon: {fileID: 21300000, guid: 95607fd3559b8b04387d7bede3e9b14d, type: 3}
+    _sprite: {fileID: 21300000, guid: e8d4bc138b8ef7643b7f46e8fcdbb97f, type: 3}
+  - _name: Sombrero
+    _icon: {fileID: 21300000, guid: 1c134f88147719a4787453730ce70a63, type: 3}
+    _sprite: {fileID: 21300000, guid: 393fe75fb8fcf0c4a951d249ed05c966, type: 3}
+  - _name: Graduation Cap
+    _icon: {fileID: 21300000, guid: da985908690279b4a8572d1fbde2691c, type: 3}
+    _sprite: {fileID: 21300000, guid: 3cb2dbdc558d72442916f00523537e7d, type: 3}
+  - _name: Worker's Helmet
+    _icon: {fileID: 21300000, guid: aada3978e98518242b4ff7b568d2e1e5, type: 3}
+    _sprite: {fileID: 21300000, guid: c164e2b136eb742439af7669ff4e0fdf, type: 3}
+  - _name: Cowboy Hat
+    _icon: {fileID: 21300000, guid: b14cdcfaa895afb4593cd33face5c21b, type: 3}
+    _sprite: {fileID: 21300000, guid: 838b922ad1c35134cb805117589ef42e, type: 3}
+  - _name: Red Scarf
+    _icon: {fileID: 21300000, guid: e5b325ab59d3cb946a822f9bd28501b5, type: 3}
+    _sprite: {fileID: 21300000, guid: 85755e250ed26364f959e31556629aa6, type: 3}

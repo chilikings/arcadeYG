@@ -1,0 +1,22 @@
+
+.info-screen {
+    position: absolute;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-color: red;
+    border-width: 0;
+}
+
+.info-screen-button {
+    height: 100%;
+    width: 100%;
+    background-image: url("project://database/Assets/Art/Screens/Tutorial_800.jpg");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: #000000;
+    border-color: purple;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}

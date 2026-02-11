@@ -1,0 +1,113 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/MainScreen.uss?fileID=7433441132597879392&amp;guid=0e7ca1f4de48f43448a1230f0f64a2ac&amp;type=3#MainScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/NumberScreen.uss?fileID=7433441132597879392&amp;guid=73fba9836913a41729cbb49fa28943be&amp;type=3#NumberScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/RewardWindow.uss?fileID=7433441132597879392&amp;guid=6f182b57a5adf42e2a7353011a8b4efe&amp;type=3#RewardWindow" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PauseScreen.uss?fileID=7433441132597879392&amp;guid=873fba56722884067b783469b3cba806&amp;type=3#PauseScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PictureScreen.uss?fileID=7433441132597879392&amp;guid=4c1bb03d1c5fc495db926b5110b2303d&amp;type=3#PictureScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ProgressBar.uss?fileID=7433441132597879392&amp;guid=89d45567c6bd64cd6b9a71d4982cb179&amp;type=3#ProgressBar" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/InfoScreen.uss?fileID=7433441132597879392&amp;guid=f92955004bfb249c7bf39a2c2ef12fa7&amp;type=3#InfoScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/TopbarLeft.uss?fileID=7433441132597879392&amp;guid=42e453999d61d7042bdb3914867fc596&amp;type=3#TopbarLeft" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/TopbarCenter.uss?fileID=7433441132597879392&amp;guid=0687b37c1e595ae459216f2c97417310&amp;type=3#TopbarCenter" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/TopbarRight.uss?fileID=7433441132597879392&amp;guid=82e2ced5ab9f3fb41979a03d71a4cb9f&amp;type=3#TopbarRight" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/FinalScreen.uss?fileID=7433441132597879392&amp;guid=a2c196cce30e248aa8b1d7f07410f423&amp;type=3#FinalScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/StartScreen.uss?fileID=7433441132597879392&amp;guid=974fb982e8fe448ce9a767b6dc90cf7b&amp;type=3#StartScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Joystick.uss?fileID=7433441132597879392&amp;guid=5b1f79c6d0e70ec488b41914cc2651e3&amp;type=3#Joystick" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/DebugPanel.uss?fileID=7433441132597879392&amp;guid=0f3b5a75e2a6c4841a95fd942f5e75f8&amp;type=3#DebugPanel" />
+    <engine:VisualElement name="PauseScreen" class="pause-screen">
+        <engine:Label text="ПАУЗА" name="PauseText" class="pause-text" />
+    </engine:VisualElement>
+    <engine:VisualElement name="MainScreen" class="main-screen" style="display: flex;">
+        <engine:VisualElement name="JoystickArea" class="joystick-area" style="flex-grow: 1;">
+            <engine:VisualElement name="JoystickBase" class="joystick-base" style="flex-grow: 1;" />
+            <engine:VisualElement name="JoystickHandle" class="joystick-handle" style="flex-grow: 1;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="topBar" class="top-bar">
+            <engine:VisualElement name="leftItems" class="topbar-left">
+                <engine:Button name="heartPlusButton" class="topbar-button heart-plus-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement class="topbar-icon heart-plus-icon" />
+                </engine:Button>
+                <engine:VisualElement name="heartBar" class="heart-bar">
+                    <engine:VisualElement name="heartIcon1" class="heart-icon" />
+                    <engine:VisualElement name="heartIcon2" class="heart-icon" />
+                    <engine:VisualElement name="heartIcon3" class="heart-icon" />
+                    <engine:VisualElement name="heartIcon4" class="heart-icon" />
+                    <engine:VisualElement name="heartIcon5" class="heart-icon" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="centerItems" class="top-bar-center-items">
+                <engine:VisualElement class="top-bar-restart-pause-container" style="flex-grow: 1; display: none; visibility: visible;">
+                    <engine:VisualElement class="button-container" />
+                    <engine:VisualElement class="button-container" />
+                </engine:VisualElement>
+                <engine:Button name="prevButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement class="topbar-icon prev-icon" />
+                </engine:Button>
+                <engine:Button name="restartButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement class="topbar-icon restart-icon" />
+                </engine:Button>
+                <engine:Button name="pauseButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement name="pauseIcon" class="topbar-icon pause-icon" />
+                </engine:Button>
+                <engine:Button name="skipButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement name="skipIcon" class="topbar-icon skip-icon" />
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:VisualElement name="rightItems" class="top-bar-right-items">
+                <engine:Button name="musicButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement name="musicIcon" class="topbar-icon music-icon" />
+                </engine:Button>
+                <engine:Button name="soundButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement name="soundIcon" class="topbar-icon sound-icon" />
+                </engine:Button>
+                <engine:Button name="infoButton" class="topbar-button">
+                    <engine:VisualElement class="button-circle" />
+                    <engine:VisualElement class="topbar-icon info-icon" />
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:ProgressBar value="0" name="ProgressBar" class="progressbar" />
+    </engine:VisualElement>
+    <engine:VisualElement name="InfoScreen" class="info-screen" style="display: none;">
+        <engine:Button name="infoScreenButton" class="info-screen-button" />
+    </engine:VisualElement>
+    <engine:VisualElement name="LevelEndScreen" class="level-end-screen" style="display: none;">
+        <engine:Label name="winText" class="win-text" />
+        <engine:VisualElement name="bonusView" class="bonus-view">
+            <engine:VisualElement name="bonusCardsView" class="bonus-cards-view" />
+        </engine:VisualElement>
+        <engine:Button name="startLevelButton" class="continue-button">
+            <engine:Label name="nextLevelText" text="ПРОДОЛЖИТЬ" class="continue-label" />
+        </engine:Button>
+        <engine:Button name="closeButton" class="continue-button">
+            <engine:Label name="continueTextClick" class="continue-label" />
+            <engine:VisualElement />
+        </engine:Button>
+        <engine:Button name="continueButton" class="continue-button">
+            <engine:Label name="continueText" text="ПРОДОЛЖИТЬ" class="continue-label" />
+        </engine:Button>
+        <engine:VisualElement name="closeButtonContainer" class="close-button-container" style="display: none;">
+            <engine:Button name="closeButtonOld" class="topbar-buttons close-image" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:Button name="FinalImageScreen" class="final-image-screen" style="display: none;">
+        <engine:Button name="FinalImagePlaceholder" class="final-image-screen-image" />
+        <engine:Label text="Нажмите, чтобы Продолжить" name="ClickToContinueText" class="final-image-screen-image-label" />
+    </engine:Button>
+    <engine:VisualElement name="CompleteScreen" class="player-name-screen game-complete-screen">
+        <engine:Button name="NewGameButton" class="replay-button" />
+    </engine:VisualElement>
+    <engine:Button name="WelcomeScreen" class="welcome-screen" style="display: none;">
+        <engine:Button name="StartGameButton" class="play-button" />
+    </engine:Button>
+    <engine:VisualElement name="DebugPanel" picking-mode="Ignore" class="debug-panel" style="flex-grow: 1;">
+        <engine:Button name="UnlockButton" class="debug-button unlock-button" />
+        <engine:Button name="ResetButton" class="debug-button reset-button" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Rewards Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Rewards
+  m_TableCollectionNameGuidString: 4bf71951bf4771d41a78c71feac19034
+  m_Entries:
+  - m_Id: 32609624064
+    m_Key: items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35163955200
+    m_Key: lives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37344993280
+    m_Key: skins
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 1524485477759451358
+    - rid: 1524485477759451359
+    - rid: 1524485477759451360
+  m_KeyGenerator:
+    rid: 1524485477759451357
+  references:
+    version: 2
+    RefIds:
+    - rid: 1524485477759451357
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1758554728866
+    - rid: 1524485477759451358
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 32609624064
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: GAME.Settings.Rewards.Items.ItemsSettings, Assembly-CSharp,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1524485477759451359
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 35163955200
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: GAME.Settings.Rewards.Lives.LivesSettings, Assembly-CSharp,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 1524485477759451360
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 37344993280
+          m_TableCodes:
+          - en
+          - ru
+        m_TypeString: GAME.Settings.Rewards.Skins.SkinsSettings, Assembly-CSharp,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

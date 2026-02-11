@@ -1,0 +1,113 @@
+.player-name-screen {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1.00);
+    display: none;
+    border-width:0;
+    top: 0;
+    left: 0;
+    background-image: url("project://database/Assets/Art/Backgrounds/Infinity_500.jpg");
+    /* -unity-background-image-tint-color: rgba(0, 0, 0, 0.3); */
+    /* -unity-background-scale-mode: scale-and-crop; */
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.number-screen-overlay
+{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.player-name-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 25%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    border-right-width: 3%;
+    border-left-width: 3%;
+    border-color: #aaaaaa;
+    padding-left: -30px;
+}
+
+.input-name-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    min-height: 100px;
+    /* flex-grow: 1; */
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.input-number {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    border-width: 0;
+    border-color: red;
+    width: 20%;
+    height: 60%;
+}
+
+.your-number-text {
+    font-size: 300%;
+    color: #eeeeee;
+    /* -unity-font-style: bold; */
+}
+
+
+.unity-base-text-field__input {
+    border-width: 0;
+    border-color: red;
+    color: #eeeeee;
+    font-size: 35px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    background-color: transparent;
+}
+
+.submit-name-button {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-color: transparent;
+    border-radius: 15px;
+    /* -unity-font-definition: resource("Fonts/helvetica-bold SDF"); */
+    -unity-font-style: bold;
+    color: #eeeeee;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 80%;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.submit-name-button:hover
+{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.random-name-button {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    /* border-radius: 10px; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    background-image: url("project://database/Assets/Art/Icons/Other/DiceWhite_100.png");
+    background-size: 50%;
+    transition: scale 0.1s ease-in-out;
+}
+
+.random-name-button:active {
+    scale: 1.1;
+}

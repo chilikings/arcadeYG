@@ -1,0 +1,74 @@
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.screen-overlay
+{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+
+.topbar-button {
+    display: flex; /* если вам нужны клики по всей площади */
+    position: relative;
+    height: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;  /* IMPORTANT ! ! ! ! ! ! */
+    background-color: transparent;
+    outline-width: 0;
+    border-width: 0;
+    border-color: red;
+}
+
+.topbar-icon {
+    position: absolute;
+    top: 0%; right: 0%; bottom: 0%; left: 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: scale 0.1s ease-in-out;
+}
+
+.button-circle {
+    position: absolute;
+    top: 0%; right: 0%; bottom: 0%; left: 0%;
+    background-color: rgba(255,255,255,0);
+ /* border-radius: 50%;         
+    border-width: 1px;      
+    border-color: blue;  */
+}
+
+.topbar-button:hover > .button-circle {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.topbar-button:active > .topbar-icon {
+  scale: 1.1;
+}
+
+.topbar-button:focus {
+    outline-width: 0;
+}
+
+* {
+    -unity-focusable: false;
+}
+
+/*     -unity-background-scale-mode: scale-to-fit;
+-unity-background-scale-mode: stretch-to-fill;
+-unity-background-scale-mode: scale-and-crop; */

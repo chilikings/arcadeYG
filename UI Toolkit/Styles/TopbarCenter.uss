@@ -1,0 +1,41 @@
+
+.top-bar-center-items {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-width: 0;
+    border-color: green;
+}
+
+.prev-icon {
+    /* margin-left: -4px; */
+    background-image: url("project://database/Assets/Art/Icons/Arrows/PrevLevel_100.png");
+}
+
+.restart-icon {
+    background-image: url("project://database/Assets/Art/Icons/Game/Restart_100.png");
+}
+
+.pause-icon {
+    background-image: url("project://database/Assets/Art/Icons/Game/Pause_100.png");
+}
+.pause-icon.play {
+    background-image: url("project://database/Assets/Art/Icons/Game/Play_100.png");
+}
+
+.skip-icon {
+    background-image: url("project://database/Assets/Art/Icons/Arrows/NextLevel_100.png");
+    border-width: 0;
+    border-color: purple;
+}
+.skip-icon.ads {
+    background-image: url("project://database/Assets/Art/Icons/Arrows/SkipLevel_140.png");
+    background-size: 101%;
+    top: -10%;
+    bottom: -10%;
+    right: -20%;
+    left: -20%;
+}
+

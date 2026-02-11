@@ -1,0 +1,37 @@
+
+.debug-panel
+{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.05);
+	top: 90%; right: 0%; bottom: 0%; left: 0%;
+	width: 100%;
+	border-width: 0;
+	border-color: red;
+	flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+	padding-right: 1%;
+}
+
+.debug-button
+{
+	background-color: transparent;
+	backrgound-size: 100%;
+	border-width: 0;
+	height: 100px;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	opacity: 0.7;
+	margin-right: 2%;
+}
+
+.reset-button
+{
+	background-image: url("project://database/Assets/Art/Icons/Game/ResetRed_120.png");
+}
+
+.unlock-button
+{
+	background-image: url("project://database/Assets/Art/Icons/Game/CompleteRed_120.png");
+}

@@ -1,0 +1,39 @@
+
+.top-bar-right-items {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 35%;
+    padding-right:3%;
+    flex-grow: 1;
+}
+
+#musicButton
+{
+    margin-right: 4%;
+}
+.music-icon {
+    background-image: url("project://database/Assets/Art/Icons/Audio/MusicOn_100.png");
+}
+.music-icon.mute {
+    background-image: url("project://database/Assets/Art/Icons/Audio/MusicOff_100.png");
+}
+
+#soundButton
+{
+    margin-right: 4%;
+}
+.sound-icon {
+    background-image: url("project://database/Assets/Art/Icons/Audio/SoundOn_100.png");
+}
+.sound-icon.mute {
+    background-image: url("project://database/Assets/Art/Icons/Audio/SoundOff_100.png");
+}
+
+.info-icon { 
+    background-image: url("project://database/Assets/Art/Icons/Other/Info_100.png"); 
+}
+
+/* .sound-button > .topbar-icon {}
+#soundButton > .topbar-icon {} */
